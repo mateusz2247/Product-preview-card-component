@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png" />
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./mobile.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@700&family=Outfit:wght@200&display=swap"
+			rel="stylesheet" />
+
+		<title>Frontend Mentor | Product preview card component</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style></style>
+	</head>
+	<body>
+		<main>
+			<div class="productCard">
+				<img
+					class="desktopPhoto mobileHidden"
+					src="./images/image-product-desktop.jpg"
+					alt="photo of Gabriele chanel perfume - only desktop usage" />
+				<img
+					class="mobilePhoto desktopHidden"
+					src="./images/image-product-mobile.jpg"
+					alt="photo of Gabriele chanel perfume - only mobile usage" />
+				<div class="productDescryption">
+					<span class="productType">PERFUME</span>
+					<h1 class="productName">
+						Gabrielle <br />
+						Essence Eau <br />
+						De Parfum
+					</h1>
+					<p class="productInformation">
+						A floral, solar and voluptuousn interpretation composed by Olivier
+						Polge, Perfumer-Creator for the House of CHANEL.
+					</p>
+					<div class="priceContainer">
+						<span class="discountPrice">$149.99</span>
+						<span class="regularPrice">$169.99</span>
+					</div>
+					<button class="addButton">
+						<img
+							class="troleyIcon"
+							src="./images/icon-cart.svg"
+							alt="Shopping cart icon" /><span> Add to Cart</span>
+					</button>
+				</div>
+			</div>
+		</main>
+		<footer class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by
+			<a href="https://www.frontendmentor.io/profile/mateusz2247">mateusz2247</a
+			>.
+		</footer>
+	</body>
+</html>

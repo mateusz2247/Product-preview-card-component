@@ -1,0 +1,109 @@
+html {
+	font-size: 14px;
+}
+
+body {
+	background-color: hsl(30, 38%, 92%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.productCard {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	border-radius: 1rem;
+}
+.desktopPhoto {
+	border-radius: 1rem 0rem 0rem 1rem;
+	width: 600px;
+}
+.productDescryption {
+	background-color: hsl(0, 0%, 100%);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 100%;
+	width: 600px;
+	border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.productType,
+.productName,
+.productInformation,
+.priceContainer,
+.addButton {
+	padding-left: 3rem;
+}
+
+.productType {
+	font-family: "Montserrat", sans-serif;
+	color: hsl(228, 12%, 48%);
+	letter-spacing: 3.5px;
+	font-size: 1.5rem;
+	padding-top: 3.5rem;
+	margin-bottom: 1.5rem;
+}
+.productName {
+	font-size: 4rem;
+	font-family: "Fraunces", serif;
+}
+.productInformation {
+	color: hsl(228, 12%, 48%);
+	font-size: 2rem;
+	font-family: "Montserrat", sans-serif;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+.priceContainer {
+	display: flex;
+	align-items: center;
+}
+
+.discountPrice {
+	font-size: 4rem;
+	font-family: "Fraunces", serif;
+	color: hsl(158, 36%, 37%);
+}
+
+.regularPrice {
+	color: hsl(228, 12%, 48%);
+	padding-left: 1.2rem;
+	text-decoration: line-through;
+	font-size: 2rem;
+	padding-left: 3rem;
+}
+.addButton {
+	margin-top: 4rem;
+	background-color: hsl(158, 36%, 37%);
+	border-radius: 0.5rem;
+	height: 6rem;
+	margin-left: 3rem;
+	width: 80%;
+	color: hsl(0, 0%, 100%);
+	border: none;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.troleyIcon {
+	height: 2rem;
+	padding-right: 1rem;
+}
+
+.addButton:hover {
+	cursor: pointer;
+	background-color: hsl(158, 36%, 21%);
+}
+.desktopHidden {
+	display: none;
+}

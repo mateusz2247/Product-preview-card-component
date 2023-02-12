@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+	html {
+		font-size: 9px;
+	}
+	body {
+		background-color: hsl(0, 0%, 100%);
+	}
+
+	.mobileHidden {
+		display: none;
+	}
+	.desktopHidden {
+		width: 350px;
+		display: block;
+	}
+
+	.productCard {
+		display: flex;
+		flex-direction: column;
+	}
+	.productDescryption {
+		width: 350px;
+	}
+
+	.addButton {
+		margin-bottom: 3rem;
+	}
+}
