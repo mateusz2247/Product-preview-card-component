@@ -2,16 +2,13 @@
 	html {
 		font-size: 9px;
 	}
-	body {
-		background-color: hsl(0, 0%, 100%);
-	}
-
 	.mobileHidden {
 		display: none;
 	}
 	.desktopHidden {
 		width: 350px;
 		display: block;
+		border-radius: 1rem 1rem 0rem 0rem;
 	}
 
 	.productCard {
@@ -20,6 +17,7 @@
 	}
 	.productDescryption {
 		width: 350px;
+		border-radius: 0rem 0rem 1rem 1rem;
 	}
 
 	.addButton {
